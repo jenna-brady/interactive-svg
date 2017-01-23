@@ -10,3 +10,17 @@
   0% {transform: translateX(-10px);}
   100% {transform: translateX(10px);}
 }
+
+#right-ear {
+  animation: ear 1s infinite alternate;
+}
+
+#left-ear {
+  animation: ear 1s infinite alternate;
+}
+
+@keyframes ear {
+  0% {transform: translateY(-10px);}
+  100% {transform: translateY(10px);}
+
+}

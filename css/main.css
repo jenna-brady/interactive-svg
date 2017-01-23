@@ -1,26 +1,38 @@
 #right-eye {
- animation: look 1s infinite alternate;
+  transition: all .5s linear;
+  animation: look 1s infinite alternate;
 }
 
 #left-eye {
-   animation: look 1s infinite alternate;
+  transition: all .5s linear;
+  animation: look 1s infinite alternate;
 }
 
 @keyframes look {
-  0% {transform: translateX(-10px);}
-  100% {transform: translateX(10px);}
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
 }
 
 #right-ear {
-  animation: ear 1s infinite alternate;
+  transform: translateY(-10px);
+  transition: all 1s linear;
 }
 
 #left-ear {
-  animation: ear 1s infinite alternate;
+  transform: translateY(-10px);
+  transition: all 1s linear;
 }
 
-@keyframes ear {
-  0% {transform: translateY(-10px);}
-  100% {transform: translateY(10px);}
+#bear:hover #right-ear{
+transform: translateY(10px);
+  }
 
-}
+#bear:hover #left-ear{
+  transform: translateY(10px);
+    }

@@ -29,10 +29,10 @@
   transition: all 1s linear;
 }
 
-#bear:hover #right-ear{
-transform: translateY(10px);
-  }
-
-#bear:hover #left-ear{
+#bear:hover #right-ear {
   transform: translateY(10px);
-    }
+}
+
+#bear:hover #left-ear {
+  transform: translateY(10px);
+}

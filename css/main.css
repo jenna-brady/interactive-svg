@@ -1,0 +1,12 @@
+#right-eye {
+ animation: look 1s infinite alternate;
+}
+
+#left-eye {
+   animation: look 1s infinite alternate;
+}
+
+@keyframes look {
+  0% {transform: translateX(-10px);}
+  100% {transform: translateX(10px);}
+}
